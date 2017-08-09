@@ -37,11 +37,11 @@
         display: block;
 }
 .col-3 {
-    width: 33%;
+    width: 24%;
     display: inline-block;
 }
 .col-9 {
-    width: 66%;
+    width: 75%;
     display: inline-block;
 }
 .dropdown {
@@ -92,4 +92,36 @@ header a {
 .fa {
     font-size: 50px;
     margin: 20px;
+    color: grey;
+}
+.text-center {
+    text-align: center;
+}
+/*services*/
+.services h1 {
+    font-weight: 400;
+    margin-top: 80px;
+
+}
+.services h3 {
+    font-weight: 400;
+}
+.services hr {
+    border: 0;
+    border-top: 1px solid #eee;
+}
+.services .services_text {
+    width: 80%;
+    margin: 30px auto;
+    line-height: 1.5;
+}
+.services ul {
+    list-style: none;
+    padding-left: 0;
+}
+.services ul li {
+   min-width: 180px;
+}
+footer {
+    min-height: 300px;
 }
